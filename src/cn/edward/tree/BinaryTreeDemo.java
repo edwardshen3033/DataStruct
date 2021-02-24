@@ -22,6 +22,10 @@ public class BinaryTreeDemo {
         binaryTree.infixOrder();
         System.out.println("后序遍历");
         binaryTree.postOrder();
+
+        //测试删除节点
+        binaryTree.del(new TreeNode(4));
+        binaryTree.preOrder();
     }
 }
 
